@@ -1,0 +1,7 @@
+body {
+    margin: auto 20%;
+}
+
+article + article {
+    margin-top: 2rem;  
+}
