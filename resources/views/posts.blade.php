@@ -9,7 +9,7 @@
         <p>
             <i>{{ $post->excerpt }}</i>
         </p>
-        <x-button link="posts/{{ $post->slug }}" text="Read more"/>
+        <x-button link="posts/{{ $post->id }}" text="Read more"/>
     </article>
 @endforeach
 
